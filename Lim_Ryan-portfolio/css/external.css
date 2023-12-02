@@ -1,0 +1,33 @@
+body{
+	background-color:indigo;
+}
+
+ul {
+  text-align:center;
+  background-color:yellow;
+  padding:20px;
+
+}
+li{
+	display: inline; /*para mag line pa horizontal ang mga menu*/
+	
+}
+a{
+	text-decoration:none; /*para mawala ang underline sa kada link*/
+	color:black;
+	font-size:25px;
+	margin:10px 10px 10px 10px;
+
+}
+
+a.mainlinks:hover {
+  background-color: brown;
+  padding:10px 10px 10px 10px;
+  color:white;
+}
+
+a.active{
+	 background-color: brown;
+	 padding:10px 10px 10px 10px;
+	 color:white;
+}

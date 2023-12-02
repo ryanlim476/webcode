@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio v0.1</title>
+<link rel="stylesheet" href="css/external.css"> <!-- Para mo connect sa CSS file nga gi create -->
+<style>
+	.banner {
+		position:relative;
+		width:100%;
+	}
+	.banner .welcome_msg{
+		background-color:yellow;
+		color:brown;
+		padding:20px 20px 20px 20px;
+		text-align:center;
+		height: auto;
+	    
+
+	}
+	.profilepic .picture{
+		
+		position:relative;
+		top:90px;
+		
+		max-width: 20%;
+		top:0px;
+		float:center;
+	    height: auto;
+	    width: auto; /* ie8 */
+	}
+
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto  auto ;
+	  gap: 15px;
+	  background-color:yellow;
+	  padding: 10px;
+
+	}
+
+	.grid-container > div {
+	  background-color: white;
+	  text-align: center;
+	  padding: 20px 0;
+	  font-size: 30px;
+	}
+	.quicklinks{
+		max-width: 5%;
+		height: auto;
+	    width: auto; /* ie8 */
+	}
+</style>
+</head>
+<body>
+	<header>
+		<ul>
+		  <li><a href="#home" class ="active mainlinks">Home</a></li>
+		  <li><a href="about.html" class ="mainlinks">About</a></li> 
+		  <li><a href="services.html" class ="mainlinks">Services</a></li> 
+		  <li><a href="contacts.html" class ="mainlinks">Contacts</a></li>
+		</ul>	
+	</header>
+
+	<body>
+		
+		<div class ="container">
+			<span class ="profilepic">
+				<center><img class ="picture" src ="images/profilepic.jpg"></center>
+			</span>
+			<span class ="banner">
+				
+				<h1 class ="welcome_msg">Welcome to my Ryan's World Portfolio v0.1</h1>
+			</span>
+					<div class="grid-container">
+					  <div></div>
+					  <div>FUTURE WEB DEVELOPER</div>
+					  <div></div>  
+					  <div></div>
+					  <div>Future graduate at University of Cebu Main Campus Highschool</div>
+					  <div></div> 
+
+					  <div></div>
+					  <div><a href =""><img class ="quicklinks" src ="images/fb.png"></a></div>
+					  <div></div>  
+					</div>
+					
+		</div>
+	</body>
+
+</body>
+</html>
